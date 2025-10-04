@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solucionador de Sudoku</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>Solucionador de Sudoku</h1>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema" title="Cambiar tema">🌙</button>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab-button active" data-tab="resolver">Resolver</button>
+      <button class="tab-button" data-tab="reglas">Reglas</button>
+    </nav>
+
+    <main>
+      <section id="tab-resolver" class="tab-content active">
+        <div class="controls">
+          <label for="size-select">Tamaño:</label>
+          <select id="size-select">
+            <option value="6">6 x 6 (fácil)</option>
+            <option value="9" selected>9 x 9 (clásico)</option>
+            <option value="16">16 x 16 (extremo)</option>
+          </select>
+
+          <div class="buttons">
+            <button id="btn-validate">Validar</button>
+            <button id="btn-solve">Resolver</button>
+            <button id="btn-clear" class="secondary">Limpiar</button>
+          </div>
+        </div>
+
+        <div id="board" class="board" aria-label="Tablero de Sudoku"></div>
+
+        <div id="message" class="message" role="status" aria-live="polite"></div>
+      </section>
+
+      <section id="tab-reglas" class="tab-content">
+        <h2>Reglas del Sudoku</h2>
+        <p>
+          El objetivo es rellenar el tablero de forma que cada fila, cada columna y
+          cada subcuadrícula contengan todos los símbolos permitidos sin repetir.
+        </p>
+        <ul>
+          <li><strong>6x6:</strong> símbolos 1–6. Subcuadrículas de 2x3.</li>
+          <li><strong>9x9:</strong> símbolos 1–9. Subcuadrículas de 3x3.</li>
+          <li><strong>16x16:</strong> símbolos 0–9 y A–F. Subcuadrículas de 4x4.</li>
+        </ul>
+        <p>
+          Puedes introducir tu propio Sudoku (por ejemplo, del periódico). Usa
+          <em>Validar</em> para comprobar si las entradas actuales cumplen las reglas y
+          <em>Resolver</em> para que el sistema complete automáticamente una solución si existe.
+        </p>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <small>Sneider22 • 2025</small>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+  </html>
