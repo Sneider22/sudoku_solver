@@ -1,4 +1,4 @@
-# 🧩 Solucionador de Sudoku (HTML/CSS/JS puro)
+# 🧩 Solucionador de Sudoku
 
 Proyecto minimalista sin dependencias. Incluye:
 
