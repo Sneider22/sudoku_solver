@@ -21,13 +21,13 @@ Proyecto minimalista sin dependencias. Incluye:
   - **Limpiar**: borra el tablero.
 - Pestaña "Reglas" con un resumen de las normas del Sudoku.
 
-## 📜 Reglas por tamaño
+## Reglas por tamaño
 
 - **6x6**: símbolos 1–6, subcuadrículas 2x3.
 - **9x9**: símbolos 1–9, subcuadrículas 3x3.
 - **16x16**: símbolos 0–9 y A–F, subcuadrículas 4x4.
 
-## 💡 Consejos de uso
+## Consejos de uso
 
 1. Elige el tamaño del tablero.
 2. Transcribe las pistas de tu Sudoku (periódico, app, etc.).
