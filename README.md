@@ -6,12 +6,12 @@ Proyecto minimalista sin dependencias. Incluye:
 - `style.css`: estilos (tema oscuro, tablero responsive, tabs)
 - `main.js`: render de tablero, validación y resolución por backtracking para 6x6, 9x9, 16x16
 
-## 🚀 ¿Cómo ejecutar?
+## ¿Cómo ejecutar?
 
 - Abre el archivo `index.html` en tu navegador (doble clic o arrástralo al navegador).
 - No requiere servidor ni instalación.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Selector de tamaño: 6x6, 9x9, 16x16.
 - Entrada manual de celdas (se aceptan solo símbolos válidos por tamaño).
